@@ -1,0 +1,32 @@
+ body{
+    background-color: gray;
+}
+table{ 
+    width: 700px;
+    margin: auto;
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial;
+    color: #fff;
+
+} 
+table, th, td {
+    border: 1px inset white;
+    border-collapse:collapse;
+    padding: 20px;
+    font-size: 15px;
+} 
+th{
+    background-color: rgb(250, 120, 164);
+    text-transform: uppercase;
+} 
+td:nth-child(5n+2){
+    background-color: rgb(250, 120, 164);
+} 
+td:nth-child(5n+4){
+    background-color: rgb(250, 120, 164);
+} 
+ td:hover{
+background-color: aqua;
+ }
